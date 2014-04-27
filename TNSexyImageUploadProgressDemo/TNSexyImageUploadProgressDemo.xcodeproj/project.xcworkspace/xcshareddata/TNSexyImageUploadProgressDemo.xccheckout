@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>69A8E97E-CFE0-4200-90F3-9F63B616D9EE</string>
+	<string>ADBB873C-CE1E-4C56-BE44-8815EC7F5E91</string>
 	<key>IDESourceControlProjectName</key>
 	<string>TNSexyImageUploadProgressDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>A6C80919-F978-4ECD-934A-4BC88B79605D</key>
+		<key>6AA03275-5BB5-43DD-8FC8-097079FD5721</key>
 		<string>https://github.com/frederik-jacques/TNSexyImageUploadProgress.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>TNSexyImageUploadProgressDemo/TNSexyImageUploadProgressDemo.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>A6C80919-F978-4ECD-934A-4BC88B79605D</key>
+		<key>6AA03275-5BB5-43DD-8FC8-097079FD5721</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>A6C80919-F978-4ECD-934A-4BC88B79605D</string>
+	<string>6AA03275-5BB5-43DD-8FC8-097079FD5721</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>A6C80919-F978-4ECD-934A-4BC88B79605D</string>
+			<string>6AA03275-5BB5-43DD-8FC8-097079FD5721</string>
 			<key>IDESourceControlWCCName</key>
 			<string>TNSexyImageUploadProgress</string>
 		</dict>

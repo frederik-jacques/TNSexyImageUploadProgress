@@ -19,10 +19,19 @@ Installation
 How to use?
 ===========
 
-1. Import the ```TNSexyImageUploadProgress.h``` file.
-2. Create an instance of the class
-3. Call the ``` show ``` method
-4. Done!
+* Import the ```TNSexyImageUploadProgress.h``` file.
+* Create an instance of the class
+* Call the ``` show ``` method
+* Update the progress by setting the ``` progress ``` property (when you are working with different threads, you should do this on the main thread!)
+
+For example:
+
+    dispatch_async(dispatch_get_main_queue(), ^{
+        self.imageUploadProgress.progress = progress.fractionCompleted;
+    });
+        
+
+* Done!
 
 For example
 
@@ -44,16 +53,19 @@ Property  | What does it do
  progressColor    | Set the color for the progress
  showOverlay    | Set if you want the component to show an overlay
  
-   self.imageUploadProgress = [[TNSexyImageUploadProgress alloc] init];
-        self.imageUploadProgress.radius = 100;
-
 For example
-
+  
+    self.imageUploadProgress = [[TNSexyImageUploadProgress alloc] init];
+    self.imageUploadProgress.radius = 100;
     self.imageUploadProgress.progressBorderThickness = -10;
     self.imageUploadProgress.trackColor = [UIColor blackColor];
     self.imageUploadProgress.progressColor = [UIColor whiteColor];
     self.imageUploadProgress.imageToUpload = selectedImage;
     [self.imageUploadProgress show];
+
+Video
+=====
+<iframe title="TNSexyImageUploadProgress video" width="320" height="568" src="http://cl.ly/VE1F/TNSexyImageUpload.mov" frameborder="0" allowfullscreen>< /iframe>
 
 Demo
 =====

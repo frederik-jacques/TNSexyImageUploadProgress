@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "TNSexyImageUploadProgress"
-  s.version      = "0.1"
+  s.version      = "0.2"
   s.summary      = "An easy image upload visualiser for Objective-C"
 
   s.homepage     = "https://github.com/frederik-jacques/TNSexyImageUploadProgress"
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "https://github.com/frederik-jacques/TNSexyImageUploadProgress.git", :tag => "0.1" }
+  s.source       = { :git => "https://github.com/frederik-jacques/TNSexyImageUploadProgress.git", :tag => "0.2" }
 
 
   s.source_files  = "src/*.{h,m}"

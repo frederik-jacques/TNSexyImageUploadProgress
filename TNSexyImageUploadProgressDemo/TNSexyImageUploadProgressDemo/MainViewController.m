@@ -55,6 +55,8 @@
     
 }
 
+#define WEBSERVICE_URL @"YOUR_PATH_TO_YOUR_WEBSERVICE"
+
 #pragma mark - UIImagePickerControllerDelegate methods
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
     
@@ -64,7 +66,7 @@
         
         NSData *imageData = UIImagePNGRepresentation(selectedImage);
 
-        NSMutableURLRequest *request = [[AFHTTPRequestSerializer serializer] multipartFormRequestWithMethod:@"POST" URLString:@"[YOUR PATH HERE]" parameters:nil constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
+        NSMutableURLRequest *request = [[AFHTTPRequestSerializer serializer] multipartFormRequestWithMethod:@"POST" URLString:WEBSERVICE_URL parameters:nil constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
             [formData appendPartWithFileData:imageData name:@"upfile" fileName:@"test" mimeType:@"image/png"];
         } error:nil];
         
